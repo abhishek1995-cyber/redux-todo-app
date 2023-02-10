@@ -1,0 +1,27 @@
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
+  .container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  li {
+    list-style: none;
+  }
+
+  .search {
+   display: flex;
+   justify-content: end;
+   align-items: center;
+
+  }
+  .search-input {
+    height: 1rem;
+    margin: 0 2rem;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+button {
+    background-color: red;
+}
